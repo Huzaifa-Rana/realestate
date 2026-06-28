@@ -1,6 +1,6 @@
 :root {
   /* Fonts */
-  --font-heading: 'Cormorant Garamond', 'Outfit', serif;
+  --font-heading: 'Outfit', sans-serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
 
   /* Transitions */
@@ -14,11 +14,11 @@
   --shadow-lg: 0 32px 64px -16px rgba(42, 37, 33, 0.12);
   
   /* Primary Accents - Brushed Luxury Gold & Warm Terracotta */
-  --color-gold: #b28e68;
-  --color-gold-hover: #967451;
-  --color-gold-light: rgba(178, 142, 104, 0.06);
-  --color-gold-glow: rgba(178, 142, 104, 0.15);
-  --gold-gradient: linear-gradient(135deg, #c5a880 0%, #91704b 100%);
+  --color-gold: #cfa268;
+  --color-gold-hover: #b28e68;
+  --color-gold-light: rgba(207, 162, 104, 0.08);
+  --color-gold-glow: rgba(207, 162, 104, 0.25);
+  --gold-gradient: linear-gradient(135deg, #FAF4E8 0%, #E6C594 50%, #CFA268 100%);
   --color-terracotta: #c27a3f;
   --color-terracotta-hover: #a6622b;
   
@@ -152,6 +152,7 @@ button, input, select, textarea {
   background: var(--gold-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.45));
 }
 
 .accent-badge {

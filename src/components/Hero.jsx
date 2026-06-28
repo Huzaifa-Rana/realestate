@@ -114,7 +114,7 @@ export default function Hero({ onSearch }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.0, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
         >
-          Living as an <span style={{ fontStyle: 'italic', fontWeight: '400', fontFamily: 'var(--font-heading)' }} className="gold-gradient-text">Art Form.</span>
+          Living as an <span style={{ fontWeight: '800', letterSpacing: '-0.02em' }} className="gold-gradient-text">Art Form.</span>
         </motion.h1>
         
         {/* Editorial Subtext */}
