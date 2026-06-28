@@ -23,11 +23,6 @@ export default function Hero({ onSearch }) {
       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80",
       title: "Aura Alpine Chalet",
       tag: "Aspen Mountain Retreat"
-    },
-    {
-      image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1800&q=80",
-      title: "The Blackwood Residence",
-      tag: "Contemporary Forest Estate"
     }
   ];
 
