@@ -29,9 +29,9 @@
   --bg-glass: rgba(250, 249, 245, 0.82);
   --border-color: rgba(42, 37, 33, 0.08);
   --border-color-hover: rgba(178, 142, 104, 0.4);
-  --text-primary: #2A2521;
-  --text-secondary: #5C534C;
-  --text-muted: #8E8278;
+  --text-primary: #1A1612;
+  --text-secondary: #4A4139;
+  --text-muted: #6B6059;
 
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -247,7 +247,7 @@ button, input, select, textarea {
 
 .section-header h2 {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .grid-responsive {

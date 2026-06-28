@@ -549,7 +549,7 @@
   align-items: center;
   gap: 6px;
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-bottom: 8px;
@@ -575,7 +575,8 @@
   align-items: center;
   gap: 8px;
   font-size: 0.85rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  font-weight: 500;
 }
 
 .spec-item svg {
@@ -857,7 +858,7 @@
 
 .agent-mini-info p {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 @media (max-width: 768px) {
@@ -1159,7 +1160,7 @@
 
 .client-info p {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--text-secondary);
 }
 
 .carousel-indicators {
@@ -1344,8 +1345,9 @@
   align-items: center;
   padding: 24px;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
+  color: var(--text-primary);
   transition: color var(--transition-fast);
 }
 
